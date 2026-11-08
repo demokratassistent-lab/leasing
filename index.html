@@ -75,6 +75,7 @@
 #lz .hero .wrap{max-width:1400px}
 #lz .hgrid{position:relative;z-index:2;flex:1;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px;width:100%}
 #lz .htx{align-self:center;padding:30px 0 90px;will-change:transform}
+@media (min-width:1101px){#lz .htx{padding:10px 0 190px;margin-left:calc(-1*clamp(0px,(100vw - 1400px)/2,32px))}}   /* текст первого экрана выше и по левому краю меню */
 /* компьютер: компактная плашка в правом верхнем углу блока с фото — над Мавлитовым, правее головы Кирчева; положение задано CSS, без расчётов */
 @media (min-width:1101px){
   #lz .lw.tr{right:-16px;top:8%;left:auto;width:250px;padding:12px;grid-template-columns:44px 1fr;gap:6px 10px;border-radius:20px}
